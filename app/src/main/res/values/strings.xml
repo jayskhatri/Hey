@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Hey!</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="parse_app_id">nmUOVWKTfThdRcAGrkyWQyMNIHNBnw58EPSBosnj</string>
+    <string name="parse_client_key">TyjFfsGErczIN6MHKdQ9jKt1jKBnxG16JQy3M1Gf</string>
+    <string name="logo">logo</string>
+    <string name="login_bg">loginBg</string>
+    <string name="title_activity_log_in">LogInActivity</string>
+    <string name="my_chats">My Chats</string>
+    <string name="all_chats">All Chats</string>
+    <string name="new_chat">New Chat</string>
+    <string name="type_a_message">Type A Message</string>
+    <string name="alert_wait">Please Wait...</string>
+    <string name="alert_loading">Loading...</string>
+    <string name="err_fields_empty">Please Fill All The Fields</string>
+
+
+    <string name="enter_username_you_want">Enter Username you want</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email_id">Enter Email Id</string>
+
+
+    <string name="error_invalid_password">Invalid Password</string>
+    <string name="error_field_required">Field can\'t be empty</string>
+    <string name="error_invalid_email">Envalid Email</string>
+</resources>

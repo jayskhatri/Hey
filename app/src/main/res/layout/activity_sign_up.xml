@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlsignUpActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".SignUpActivity">
+
+    <Button
+        android:id="@+id/signUpBtn"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="51dp"
+        android:background="@color/main_color_saffrony"
+        android:onClick="signUp"
+        android:text="Sign Up"
+        android:textSize="14sp"
+        android:textStyle="bold|italic" />
+
+    <RelativeLayout
+        android:id="@+id/emailLayout"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userLayout"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_border">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:cursorVisible="false"
+            android:drawableLeft="@drawable/ic_action_email"
+            android:drawableStart="@drawable/ic_action_email"
+            android:ems="10"
+            android:focusable="auto"
+            android:hint="@string/enter_email_id"
+            android:inputType="textEmailAddress"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/passswordLayout"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailLayout"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_border">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:cursorVisible="false"
+            android:drawableLeft="@drawable/ic_action_password"
+            android:drawableStart="@drawable/ic_action_password"
+            android:ems="10"
+            android:focusable="auto"
+            android:hint="@string/enter_password"
+            android:inputType="textPassword"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/userLayout"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="206dp"
+        android:background="@drawable/custom_border">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:cursorVisible="false"
+            android:drawableLeft="@drawable/ic_action_username"
+            android:drawableStart="@drawable/ic_action_username"
+            android:ems="10"
+            android:focusable="auto"
+            android:hint="@string/enter_username_you_want"
+            android:inputType="textPersonName"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/logoInSignUp"
+        android:layout_width="161dp"
+        android:layout_height="152dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/logo"
+        app:srcCompat="@drawable/logo" />
+
+</RelativeLayout>
