@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Multi Client Chat Room 👋</h1>
+<h1 align="center">Welcome to Hey Messaging App 👋</h1>
 <p>
   <a href="https://github.com/jayskhatri/Hey#readme">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
